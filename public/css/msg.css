@@ -1,0 +1,31 @@
+/* CSS Document */
+
+.confirm {
+    background-color: #DFF2BF;
+    background-image: url("../images/success.png");
+    border-radius: 7px 7px 7px 7px;
+    color: #4F8A10;
+    width: 533px;
+}
+.error {
+    background-color: #FFBABA;
+    background-image: url("../images/error.png");
+	border-radius: 7px 7px 7px 7px;
+    color: #D8000C;
+	width: 533px;
+}
+
+.info, .confirm, .warning, .error, .validation {
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 15px 10px 15px 50px;
+}
+
+/*.required {
+    color: #FF0000;
+    font-size: 16px;
+}*/
